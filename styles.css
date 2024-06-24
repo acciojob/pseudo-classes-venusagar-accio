@@ -1,11 +1,27 @@
-/*  your css code here. If applicable */
-body{
+:root {
                 background-color: rgb(135, 206, 235);
             }
-            #first-child{
+            p:first-child {
                 background-color: black;
                 color: white;
             }
-            #last-child{
-                color:red;
+            p:nth-child(2) {
+                /* Standard text color. You can specify the color if you want. */
+            }
+            p:last-child {
+                color: red;
+            }
+            li {
+                background-color: gray;
+                width: 50%;
+                padding: 10px;
+            }
+            li:first-child, li:last-child {
+                font-size: 22px;
+            }
+            li:nth-last-child(3) {
+                background-color: pink;
+            }
+            li:nth-child(odd) {
+                background-color: white;
             }
