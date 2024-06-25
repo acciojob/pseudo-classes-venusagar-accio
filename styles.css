@@ -19,9 +19,9 @@ li {
 li:first-child, li:last-child {
     font-size: 22px;
 }
-li:nth-last-child(3) {
-    background-color: pink;
-}
 li:nth-child(odd) {
     background-color: white;
+}
+li:nth-last-child(3) {
+    background-color: pink;
 }
